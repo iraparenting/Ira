@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:padding="20.0dip"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_height="100.0dip"
+        android:layout_width="fill_parent"
+        android:layout_margin="30.0dip"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Resources for Parents (1.5 - 6 years) "
+        android:textColor="@android:color/black"
+        android:textSize="20.0dip" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:layout_marginTop="50.0dip"
+        android:hint="E-mail"
+        android:paddingLeft="10.0dip"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:layout_marginTop="40.0dip"
+        android:hint="Password"
+        android:paddingLeft="10.0dip"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black" />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="Create My Account"
+        android:gravity="center"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="20.0dip"
+        android:layout_marginTop="50.0dip"/>
+</LinearLayout>
